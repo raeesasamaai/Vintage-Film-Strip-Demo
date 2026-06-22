@@ -1,3 +1,4 @@
+const base = import.meta.env.BASE_URL;
 export const sections = [
   {
     id: 'home',
@@ -6,7 +7,7 @@ export const sections = [
     title: 'Discover the Stories Hidden in Your Family History',
     body: 'Personalized genealogy research to uncover, preserve, and share the stories behind your ancestry.',
     cta: 'Start Your Family History Journey',
-    image: '/images/sections/home.png',
+    image: `${base}images/sections/home.png`,
     align: 'left',
   },
   {
@@ -16,7 +17,7 @@ export const sections = [
     title: 'We uncover the people, places, and stories that came before you',
     body: 'Ancestors & Anecdotes helps families explore their roots through thoughtful research, historical records, and story preservation. You can start with a name, photograph, document, or family story.',
     cta: 'Explore Our Services',
-    image: '/images/sections/what-we-do.png',
+    image: `${base}images/sections/what-we-do.png`,
     align: 'left',
   },
   {
@@ -26,7 +27,7 @@ export const sections = [
     title: 'Research designed around your family story',
     body: 'Family history research, family tree creation, historical record searches, ancestry research, genealogy reports, and family story preservation — organized clearly and handled with care.',
     cta: 'View Services',
-    image: '/images/sections/services.png',
+    image: `${base}images/sections/services.png`,
     align: 'left',
   },
   {
@@ -36,7 +37,7 @@ export const sections = [
     title: 'Begin with what you know. We guide the next steps.',
     body: 'Share the details you already have. We review the starting point, research available records, organize the findings, and help you preserve your family story in a meaningful way.',
     cta: 'See The Process',
-    image: '/images/sections/process.png',
+    image: `${base}images/sections/process.png`,
     align: 'left',
   },
   {
@@ -46,7 +47,7 @@ export const sections = [
     title: 'A personal approach to personal history',
     body: 'Ancestors & Anecdotes was created from a love of history, storytelling, and the belief that every family story deserves to be remembered. Personal information is handled with respect, care, and confidentiality.',
     cta: 'Meet The Team',
-    image: '/images/sections/about.png',
+    image: `${base}images/sections/about.png`,
     align: 'left',
   },
   {
@@ -56,7 +57,7 @@ export const sections = [
     title: 'You do not need to have all the answers before starting',
     body: 'Start with whatever you have: a name, date, place, photograph, document, or memory. Genealogy research depends on available records, and every project is approached honestly and carefully.',
     cta: 'Read The FAQs',
-    image: '/images/sections/faq.png',
+    image: `${base}images/sections/faq.png`,
     align: 'left',
   },
   {
@@ -66,7 +67,7 @@ export const sections = [
     title: 'Ready to begin your family history journey?',
     body: 'Share what you know so far and we will help you explore the next step. Your family information will be treated with care, respect, and confidentiality.',
     cta: 'Send Enquiry',
-    image: '/images/sections/contact.png',
+    image: `${base}images/sections/contact.png`,
     align: 'left',
   },
 ];
